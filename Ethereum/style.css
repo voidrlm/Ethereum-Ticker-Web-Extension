@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #232323;
+}
+
+.container {
+  position: relative;
+}
+
+.container .card {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container .card .imgBx {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-70%);
+  width: 100%;
+  height: 200px;
+}
+
+.container .card .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}
+
+.container .card .contentBx {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+p {
+  display: inner-flex;
+  margin: auto 10px;
+  font-size: 22px;
+  color: yellow;
+  border-radius: 15px;
+  border: 1px solid yellow;
+  padding: 10px;
+}
